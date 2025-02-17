@@ -56,7 +56,7 @@ const Header: FC<HeaderProps> = () => {
 						</Link>
 					</li>
 					<li onClick={() => setIsMenuOpened(false)}>
-						<Image src='/images/icons/close.svg' width={26} height={26} />
+						<Image src='/images/icons/close.svg' width={26} height={26} alt='close' />
 					</li>
 				</ul>
 			</nav>
